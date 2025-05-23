@@ -134,7 +134,7 @@ packages:
     description:
       path: "dependencies/ff_commons"
       ref: main
-      resolved-ref: a5e125c61ac29e2de97318a724ad6df2aabb662a
+      resolved-ref: "9ae38ec72b94f155575dc4e5ab89c845306f1633"
       url: "https://github.com/beepixl/healthinsurance.git"
     source: git
     version: "1.0.0+1"
@@ -143,7 +143,7 @@ packages:
     description:
       path: "dependencies/ff_theme"
       ref: main
-      resolved-ref: a5e125c61ac29e2de97318a724ad6df2aabb662a
+      resolved-ref: "9ae38ec72b94f155575dc4e5ab89c845306f1633"
       url: "https://github.com/beepixl/healthinsurance.git"
     source: git
     version: "1.0.0+1"
@@ -316,7 +316,16 @@ packages:
     description:
       path: "dependencies/health_insurance"
       ref: main
-      resolved-ref: a5e125c61ac29e2de97318a724ad6df2aabb662a
+      resolved-ref: "9ae38ec72b94f155575dc4e5ab89c845306f1633"
+      url: "https://github.com/beepixl/healthinsurance.git"
+    source: git
+    version: "1.0.0+1"
+  healthinsurance:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: "8aa129fbc565b998135f37c0d76f5abfeb8630ec"
       url: "https://github.com/beepixl/healthinsurance.git"
     source: git
     version: "1.0.0+1"
@@ -829,15 +838,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.1"
-  test4:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: main
-      resolved-ref: a5e125c61ac29e2de97318a724ad6df2aabb662a
-      url: "https://github.com/beepixl/healthinsurance.git"
-    source: git
-    version: "1.0.0+1"
   test_api:
     dependency: transitive
     description:
